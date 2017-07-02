@@ -32,8 +32,8 @@ function setup() {
 function draw() {
 	background(51);
 	
-	player.vel.x = (camera.mouseX-player.pos.x)/20;
-	player.vel.y = (camera.mouseY-player.pos.y)/20;
+	player.vel.x = (camera.mouseX-player.pos.x)/50;
+	player.vel.y = (camera.mouseY-player.pos.y)/50;
 
 	camera.position.x = player.pos.x;
 	camera.position.y = player.pos.y;
